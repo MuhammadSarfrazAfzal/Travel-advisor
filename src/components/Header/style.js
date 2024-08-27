@@ -1,0 +1,18 @@
+import { makeStyles } from '@mui/styles';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
+const theme = createTheme();
+const useStyles = makeStyles((theme) => ({
+    box:{
+      position:'relative',
+      left:770
+    },
+    search:{
+      margin:8,
+      padding:3,
+      display:'flex',
+      width:200,
+      background:'silver',
+      borderRadius:30
+    }
+  }));
+export default useStyles

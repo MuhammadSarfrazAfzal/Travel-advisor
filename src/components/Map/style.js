@@ -2,9 +2,6 @@ import { makeStyles } from '@mui/styles';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
-  googleMap:{
-    
-  },
   paper: {
     padding: '10px', display: 'flex', flexDirection: 'column', justifyContent: 'center', width: '100px',
   },

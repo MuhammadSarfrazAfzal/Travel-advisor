@@ -7,9 +7,10 @@ import useStyles from './style'
 const Map = () => {
   const classes = useStyles()
   const isMobile = useMediaQuery('(min-width:600px)')
-  const coordinates = { lat:0,lng:0}
+  const coordinates = { lat:32.93354000,lng:73.72071800}
   return (
     <>
+      <div className={classes.mapContainer}>
       <GoogleMapReact
         className={classes.googleMap}
         bootstrapURLKeys={{key:'AIzaSyBffvMVFtkref1GuH4uZuVVVa1Ro8r6D9c'}}
@@ -21,8 +22,8 @@ const Map = () => {
         onChange={''}
         onChildClick={''}
       >
-        
       </GoogleMapReact>
+      </div>
     </>
   )
 }

@@ -3,7 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 const theme = createTheme();
 const useStyles = makeStyles((theme) => ({
     box:{
-      position:'relative',
+      position:'absolute',
       left:770
     },
     search:{
@@ -11,6 +11,7 @@ const useStyles = makeStyles((theme) => ({
       padding:3,
       display:'flex',
       width:200,
+      height:30,
       background:'silver',
       borderRadius:30
     }

@@ -14,6 +14,9 @@ const useStyles = makeStyles((theme) => ({
       height:30,
       background:'silver',
       borderRadius:30
+    },
+    toolbar:{
+      position:"sticky"
     }
   }));
 export default useStyles

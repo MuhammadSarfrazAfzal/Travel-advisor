@@ -1,11 +1,13 @@
-import React from "react"
+import React, { useEffect } from "react"
 import {Typography,Grid} from "@mui/material"
 import Header from "./components/Header/Header"
 import List from "./components/List/List"
 import Map from "./components/Map/Map"
-
-
+import { getPlacesData } from "./api"
+import { useState } from "react"
 function App() {
+  
+  useEffect(()=>{getPlacesData()},[])
   return (
     <>
       <Header/>

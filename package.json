@@ -18,9 +18,12 @@
     "react-scripts": "4.0.3",
     "web-vitals": "^0.2.2"
   },
+  "engines": {
+    "node": "20.x"
+  },
   "scripts": {
-    "start": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
